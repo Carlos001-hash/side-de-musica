@@ -1,7 +1,7 @@
 "use client"
 
 import Header from "./components/Header";
-import React, { useCallback } from 'react';
+import React from 'react';
 import Hero from "./components/Hero";
 import SideBar from "./components/SideBar";
 import Footer from "./components/Footer";

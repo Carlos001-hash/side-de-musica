@@ -1,10 +1,10 @@
 
 import Image from "next/image";
 import React, { useCallback } from 'react';
-import { MusicaCard1, musicaPares, musicaImpares } from '../app/data/musica1';
-import { MusicaCard2, musicaPares2, musicaImpares2 } from '../app/data/musica2';
-import { MusicaCard3, musicaPares3, musicaImpares3 } from '../app/data/maisEscutados';
-import { artistas, ArtistaCard1 } from '../app/data/artistas';
+import { MusicaCard1, musicaPares, musicaImpares } from '../data/musica1';
+import { MusicaCard2, musicaPares2, musicaImpares2 } from '../data/musica2';
+import { MusicaCard3, musicaPares3, musicaImpares3 } from '../data/maisEscutados';
+import { artistas, ArtistaCard1 } from '../data/artistas';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import useEmblaCarousel from "embla-carousel-react";

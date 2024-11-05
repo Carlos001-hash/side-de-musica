@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-import React, { useCallback } from 'react';
+import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faBell, faSearch } from '@fortawesome/free-solid-svg-icons';
 

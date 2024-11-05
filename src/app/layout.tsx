@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import React, { useCallback } from 'react';
+import React from 'react';
 import { Roboto } from "next/font/google"
 import "./globals.css";
 import FontawesomeConfig from "@/fontawesome";
