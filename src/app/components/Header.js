@@ -49,7 +49,7 @@ export default function Header() {
                             className="" 
                             alt="Foto do perfil" />
                         </div>
-                        <div className="absolute w-40 md:w-52 h-auto hidden group-focus:block top-[69px] right-[20px] shadow-md rounded-bl-xl bg-gray-950 overflow-hidden z-10">
+                        <div className="absolute w-40 md:w-52 h-auto hidden group-focus:block top-[69px] right-[20px] shadow-md rounded-bl-xl rounded-br-xl bg-gray-950 overflow-hidden z-10">
                             <ul className="flex flex-col text-white">
                                 <li className=" group border-b-[1px] flex flex-row justify-start items-cent cursor-auto p-3">
                                     <div className="w-10 h-10 rounded-full  overflow-hidden mr-1.5">
