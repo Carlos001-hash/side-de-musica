@@ -34,15 +34,6 @@ export default function Hero() {
     return (
         <main className=" main  w-full h-auto bg-gray-950  overflow-y-auto mt-0 md:mt-1.5 relative rounded-none md:rounded-t-xl">
             <div className=" main-area flex flex-col w-full min-h-full">
-                <section className="flex h-auto w-full">
-                    <div className="flex w-full h-60 overflow-hidden">
-                        <Image src="https://lh3.googleusercontent.com/pw/AP1GczPjrv_UWqeDNfCdewXBj8zq0W6i513KwGoVDNNnW2b8kj4RAG5YUfvzmRBpPz9hMEyFyPwWTuxDsWdg6RMIMYNHeENCmCso1M7ZcTp2TjFDU0_d_wf9GuUFiDKPggGkJIYSYAsGvP8LU8NQmeNA81kXrg=w617-h617-s-no-gm?authuser=0" 
-                        width={1700}
-                        height={1300}
-                        className=" object-cover shadow- object-center"
-                        alt="" />
-                    </div>
-                </section>
 
                 <section className="w-full pb-4 h-auto flex flex-col">
 

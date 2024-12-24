@@ -16,7 +16,7 @@ export const MusicaCard3 = ({ musica }: { musica: Musica }) => {
           </a>
           <div className="transition-all delay-100 ease-in duration-100 absolute bottom-2 bg-red-600/0 group-hover:bg-red-600 rounded-full   group-hover:bottom-3 ">
             <button className=" flex items-center justify-center size-10 hover:size-[42px] hover:bg-red-700 text-[22px] rounded-full outline-none ">
-              <FontAwesomeIcon icon={faPlay} className="transition-all ease-in delay-75 duration-100 text-red-600/0 group-hover:text-gray-950"/>
+              <FontAwesomeIcon icon={faPlay} className="transition-all ease-in delay-75 duration-100 text-red-600/0 group-hover:text-white"/>
             </button>
           </div>
         </div>

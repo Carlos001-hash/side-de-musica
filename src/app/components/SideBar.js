@@ -7,7 +7,7 @@ import { faHome, faCompass, faClock } from '@fortawesome/free-solid-svg-icons';
 export default function SideBar() {
     return ( 
 
-            <div className="w-auto h-full lx:w-60  bg-gray-950 rounded-tl-xl mr-1.5">
+            <div className="w-auto h-full xl:w-60  bg-gray-950 rounded-tl-xl mr-1.5">
                 <div className="h-20 flex items-center justify-center border-b border-gray-800 p-4">
                     <a className="w-9 xl:w-auto flex flex-row items-center gap-1" href="">
                         <Image 
@@ -17,7 +17,7 @@ export default function SideBar() {
                         height={47}
                         alt="ddd" 
                         />
-                        <h1 className="hidden xl:block text-red-500 font-bold text-xl leading-5">NotaForte</h1>
+                        <h1 className="hidden xl:block text-red-500 font-bold text-xl leading-5"><span className="text-gray-100">Nota</span>Forte</h1>
                     </a>
                     
                 </div>
