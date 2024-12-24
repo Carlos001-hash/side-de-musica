@@ -1,5 +1,4 @@
 
-import Image from "next/image";
 import React, { useCallback } from 'react';
 import { MusicaCard1, musicaPares, musicaImpares } from '../data/musica1';
 import { MusicaCard2, musicaPares2, musicaImpares2 } from '../data/musica2';
