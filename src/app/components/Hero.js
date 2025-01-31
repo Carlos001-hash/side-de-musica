@@ -144,10 +144,10 @@ export default function Hero() {
                         <div className="w-full flex flex-row flex-nowrap items-end justify-between p-3">
                             <h3 className=" text-lg md:text-2xl font-semibold text-white">Para você</h3>
                             <div className=" w-24 flex flex-row items-center justify-around">
-                                <button className="embla__prev w-9 h-9 flex items-center justify-center hover:bg-gray-50 border rounded-full" onClick={scrollPrev2}>
+                                <button className="embla__prev w-9 h-9 flex items-center justify-center text-white hover:text-black hover:bg-gray-50 border rounded-full" onClick={scrollPrev2}>
                                     <FontAwesomeIcon icon={faChevronRight} className="rotate-180" />
                                 </button>
-                                <button className="embla__next w-9 h-9 flex items-center justify-center hover:bg-gray-50 border rounded-full" onClick={scrollNexti}>
+                                <button className="embla__next w-9 h-9 flex items-center justify-center text-white hover:text-black hover:bg-gray-50 border rounded-full" onClick={scrollNexti}>
                                     <FontAwesomeIcon icon={faChevronRight} />
                                 </button>
                             </div>
@@ -166,10 +166,10 @@ export default function Hero() {
                         <div className="w-full flex flex-row flex-nowrap items-end justify-between p-3">
                             <h3 className=" text-lg md:text-2xl font-semibold text-white">Mais recentes</h3>
                             <div className=" w-24 flex flex-row items-center justify-around">
-                                <button className="embla__prev w-9 h-9 flex items-center justify-center hover:bg-gray-50 border rounded-full" onClick={scrollPrev}>
+                                <button className="embla__prev w-9 h-9 flex items-center justify-center text-white hover:text-black hover:bg-gray-50 border rounded-full" onClick={scrollPrev}>
                                     <FontAwesomeIcon icon={faChevronRight} className="rotate-180" />
                                 </button>
-                                <button className="embla__next w-9 h-9 flex items-center justify-center hover:bg-gray-50 border rounded-full" onClick={scrollNext}>
+                                <button className="embla__next w-9 h-9 flex items-center justify-center text-white hover:text-black hover:bg-gray-50 border rounded-full" onClick={scrollNext}>
                                     <FontAwesomeIcon icon={faChevronRight} />
                                 </button>
                             </div>
