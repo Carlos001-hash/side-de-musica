@@ -1,4 +1,5 @@
 import { Musica } from './musica';
+import Link from 'next/link';
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
@@ -8,12 +9,12 @@ export const MusicaCard1 = ({ musica }: { musica: Musica }) => {
     return (
       <div className="card min-w-[25%] sm:min-w-[20%] mi-h-[270px] max-h-[285px] mb-8 flex  flex-col items-center justify-start hover:bg-gray-900 hover:drop-shadow-md p-2 rounded-lg">
         <div className=" gg group relative w-full h-auto rounded-lg flex justify-center items-center overflow-hidden">
-          <a href="" className=" gg w-auto h-auto group-hover:">
+          <Link href="about/first-post" className=" gg w-auto h-auto group-hover:">
             <Image src={musica.image}
             width={400}
             height={41.188} 
             alt="" />
-          </a>
+          </Link>
           <div className="transition-all delay-100 ease-in duration-100 absolute bottom-2 bg-red-600/0 group-hover:bg-red-600 rounded-full   group-hover:bottom-3 ">
             <button className=" flex items-center justify-center size-10 hover:size-[42px] hover:bg-red-700 text-[22px] rounded-full outline-none ">
               <FontAwesomeIcon icon={faPlay} className="transition-all ease-in delay-75 duration-100 text-red-600/0 group-hover:text-white"/>
