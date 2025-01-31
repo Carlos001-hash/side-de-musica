@@ -2,18 +2,21 @@ import { Musica } from './musica';
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
+import Link from 'next/link';
 
 
 export const MusicaCard3 = ({ musica }: { musica: Musica }) => {
+
     return (
       <div className={musica.style}>
         <div className=" gg group relative w-full h-auto rounded-lg flex justify-center items-center overflow-hidden">
-          <a href="" className=" gg w-auto h-auto group-hover:">
+          <Link href="about/first-post" locale="_parent" >
             <Image src={musica.image}
+            loading='lazy'
             width={400}
-            height={41.188} 
+            height={41.188}
             alt="" />
-          </a>
+          </Link>
           <div className="transition-all delay-100 ease-in duration-100 absolute bottom-2 bg-red-600/0 group-hover:bg-red-600 rounded-full   group-hover:bottom-3 ">
             <button className=" flex items-center justify-center size-10 hover:size-[42px] hover:bg-red-700 text-[22px] rounded-full outline-none ">
               <FontAwesomeIcon icon={faPlay} className="transition-all ease-in delay-75 duration-100 text-red-600/0 group-hover:text-white"/>
