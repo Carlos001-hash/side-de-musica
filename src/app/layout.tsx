@@ -3,6 +3,9 @@ import React from 'react';
 import { Roboto } from "next/font/google"
 import "./globals.css";
 import FontawesomeConfig from "@/fontawesome";
+import Header from "./components/Header";
+import SideBar from "./components/SideBar";
+import Footer from "./components/Footer";
 
 const roboto = Roboto({
   weight: ['400', '700'],
@@ -26,7 +29,20 @@ export default function RootLayout({
         <FontawesomeConfig />
       </head>
       <body className={roboto.className}>
-        {children}
+        <div className="relative w-full h-screen flex flex-col bg-black  p-0 md:p-1.5">
+          <div className="relative w-full h-full flex flex-col">
+            <div className="relative w-full m-0 h-full  flex flex-row-reverse pb-20">
+              <div className="relative w-full m-0 h-full  flex flex-row-reverse p-0 md:pb-1.5">
+                <div className="relative w-full h-full flex flex-col ">
+                  <Header />
+                  {children}
+                </div>
+                <SideBar />
+              </div>
+            </div>
+            <Footer />
+          </div>
+        </div>
       </body>
     </html>
   );
