@@ -1,4 +1,5 @@
 import { Musica } from './musica';
+import Link from 'next/link';
 import Image from "next/image";
 
 
@@ -6,12 +7,12 @@ export const ArtistaCard1 = ({ artista }: { artista: Musica }) => {
     return (
         <div className={artista.style}>
             <div className="group relative w-full h-auto rounded-full flex justify-center items-center overflow-hidden">
-            <a href="" className="w-auto h-auto group-hover:">
+            <Link href="about/first-post" className="w-auto h-auto group-hover:">
                 <Image src={artista.image}
                 width={400}
                 height={41.188} 
                 alt="" />
-            </a>
+            </Link>
             </div>
             <div className=" w-full h-auto flex justify-center pt-3 leading-5 text-xs text-white ">
             <a href="" className="flex w-auto hover:underline overflow-hidden">
