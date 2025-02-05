@@ -43,18 +43,18 @@ export const PlaylistPlace = ({ playlist }: { playlist: Musica }) => {
                   <Image src={playlist.image} fill alt="" className="group-hover:bg-transparent/60"/>
                 </div>
 
-                <div className="w-48 h-auto flex flex-col items-start text-white">
+                <div className="w-24 sm:w-48 sm:text-sm sm:truncate overflow-hidden text-nowrap h-auto flex flex-col items-start text-white">
                     <a href="#" className="hover:underline">{playlist.name}</a>
                     <a href="#" className="hover:underline">{playlist.artist}</a>
                 </div>
             </div>
-            <div className="w-36 h-auto overflow-hidden text-white text-nowrap truncate ">
+            <div className="hidden xs:block w-36 h-auto overflow-hidden text-white text-nowrap truncate ">
                 <a href="#" className="w-full  h-auto text-sm hover:underline">{playlist.name}</a>
             </div>
-            <div>
+            <div className="hidden md:block ">
                 <p className="w-24 h-auto text-sm text-white text-nowrap truncate">00/00/000</p>
             </div>
-            <div className="group flex flex-row gap-9 items-center">
+            <div className="group flex flex-row gap-2 sm:gap-9 items-center">
                 <p className="text-white">3:00</p>
                 {divVisivel ? (
                   <div className="flex items-center justify-center text-3xl size-9 cursor-pointer p-1 rounded-full bg-red-500  text-white font-semibold mr-4">
@@ -66,7 +66,7 @@ export const PlaylistPlace = ({ playlist }: { playlist: Musica }) => {
                 </button>
                 )}
                 {divVisivel && (
-                  <div ref={refDiv}  className="flex flex-col items-start justify-center w-52 h-auto border border-gray-600 bg-gray-800 shadow-[0px_-1px_7px_0px_#030712] absolute right-28 bottom-2.5 rounded-lg overflow-hidden">
+                  <div ref={refDiv}  className="flex flex-col items-start justify-center z-50 w-52 h-auto border border-gray-600 bg-gray-800 shadow-[0px_-1px_7px_0px_#030712] absolute right-28 bottom-24 rounded-lg overflow-hidden">
                     <ul className="w-full h-auto">
                       <li className="w-full h-auto text-white hover:bg-red-500 hover:text-white"><button className="w-full h-auto flex flex-row items-center gap-3 p-4"><div className="size-4"><FontAwesomeIcon icon={faHeart} /></div><p>Favorito</p></button></li>
                       <li className="w-full h-auto text-white hover:bg-red-500 hover:text-white"><button className="w-full h-auto flex flex-row items-center gap-3 p-4"><div className="size-4"><FontAwesomeIcon icon={faPlus} /></div><p>Adicionar à fila</p></button></li>
