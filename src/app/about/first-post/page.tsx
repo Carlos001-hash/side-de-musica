@@ -17,7 +17,7 @@ export default function PlayList() {
             height={204}
             alt=""
             className="rounded-lg bg-center "/>
-            <h1 className="block group-hover:text-white transition  delay-150 duration-1000 ease-in-out w-[650px] h-full truncate absolute md:left-20 md:bottom-1 left-0 -bottom-5  md:text-[150px] text-[100px] text-transparent font-semibold ">Tocaia</h1>
+            <h1 className="block group-hover:text-white transition  delay-150 duration-1000 ease-in-out w-full h-full truncate absolute md:left-20 md:-bottom-2 left-0 -bottom-5  text-[100px] text-transparent font-semibold">Tocaia</h1>
             <h3 className="block group-hover:text-white transition  delay-700 duration-500 ease-out w-52 h-auto absolute top-1 md:right-72 right-20 text-5xl bg-red-60 text-nowrap text-transparent font-semibold decoration-none">Carlos Vante</h3>
           </div>
           <div className="absolute -bottom-16  size-36 rounded-full bg-gray-900  border-8 border-black overflow-hidden">
