@@ -84,8 +84,7 @@ export default function Header() {
                                             <Image src="https://lh3.googleusercontent.com/pw/AP1GczPJPJVCpAaDh4mmIN6YeDtjt-6o354Fjd4NLigPobVwhiAOMCale6grfKqDziVFEDYpmtEr-WoElL7Gfs70Kl30nWETcurp07dcWku6tF8iUygkDzNIwdOAfzvJ8PtXVfhd6perynRlBvzQEniqsQzXPQ=w599-h617-s-no-gm?authuser=0" 
                                             width={400} 
                                             height={41.188} 
-                                            alt="Foto de perfil"
-                                            className="rounded-full>/>
+                                            alt="Foto de perfil"/>
                                         </div>
                                         <div className="w-full h-auto text-start">
                                             <h3 className="leading-5">Coisa Linda</h3>
