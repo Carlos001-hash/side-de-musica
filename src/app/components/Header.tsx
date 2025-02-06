@@ -25,7 +25,7 @@ export default function Header() {
 
     return (
         <header className=" w-full h-28 bg-gray-950 shadow-inner shadow-color-red-500/50 rounded-tr-xl flex justify-between border-b-2 md:border-none border-gray-800 p-3">
-            <a className="w-9 ml-3 flex lg:hidden flex-row items-center gap-1" href="">
+            <a className="w-9 ml-3 flex lg:hidden flex-row items-center gap-1" href="/">
                 <Image 
                 className=""
                 src="https://lh3.googleusercontent.com/pw/AP1GczMZcvgm-adsZrHe5HoQAfNQ8C8xj3wc-VDAzwOrRbQXswvuZGq8td-pp5aH-sNhPWfFFT2OG8iefxt8vwTiqoHyCScTW2ixckoqIOSpcFU26aih9qd770IZCnGbPYK0IbhK8yYxdA6vkiNLg6ge5wjRSg=w394-h617-s-no-gm?authuser=0" 
