@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --background: #000000;
+  --foreground: #171717;
+  --scrollbar-width: 5px;
+  --scrollbar-track-bg: #11182700;
+  --scrollbar-thumb-bg: #ef4444;
+}
+
+::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-bg);
+}
+
+:hover::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-bg);
+  transition: 1000ms ease-in-out;
+}
+
+
+.embla__viewport {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 20%;
+  min-width: 0;
+}
