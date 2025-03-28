@@ -1,3 +1,4 @@
+'use client'
 
 import React, { useCallback } from 'react';
 import { MusicaCard1, musicaPares, musicaImpares } from '../data/musica1';

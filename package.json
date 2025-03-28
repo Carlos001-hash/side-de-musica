@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/Carlos001-hash/Test.git",
+  "homepage": "https://github.com/Carlos001-hash/side-de-musica",
   "name": "72",
   "version": "0.1.0",
   "private": true,
@@ -15,10 +15,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
-<<<<<<< HEAD
     "@vercel/analytics": "^1.5.0",
-=======
->>>>>>> a74dab28d1723fe46ff149d6ceb3873ea102958c
     "embla-carousel-react": "^8.3.0",
     "next": "14.2.8",
     "react": "^18.3.1",

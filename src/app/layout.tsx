@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import React from 'react';
+import React from "react";
 import { Roboto } from "next/font/google"
 import "./globals.css";
 import FontawesomeConfig from "@/fontawesome";
 import Header from "./components/Header";
 import SideBar from "./components/SideBar";
 import Footer from "./components/Footer";
+import { Analytics } from "@vercel/analytics/react"
 
 const roboto = Roboto({
   weight: ['400', '700'],
@@ -36,6 +37,7 @@ export default function RootLayout({
                 <div className="relative w-full h-full flex flex-col ">
                   <Header />
                   {children}
+                  <Analytics/>
                 </div>
                 <SideBar />
               </div>
